@@ -31,7 +31,6 @@ go mod init
 ```
 docker build -t $PROJECT_NAME .
 docker run -p $PORT:$PORT $PROJECT_NAME
-
 ```
 
 ### redis
