@@ -18,9 +18,9 @@ alias air='$(go env GOPATH)/bin/air'
 ```
 
 ### install awscli and ebcli
-https://aws.amazon.com/cli/
-https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html
-(install anyenv, pyenv, and python 3.7 if needs to be)
+- https://aws.amazon.com/cli/
+- https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html
+- (install anyenv, pyenv, and python 3.7 if needs to be)
 
 ### init
 ```
