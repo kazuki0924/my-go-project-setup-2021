@@ -48,6 +48,42 @@ createdb $DB_NAME
 ### github actions
 - create Publish-Docker-Github-Action
 
-### Other
+### other
 - docker-compose for later in the development
 - pulumi for iac
+
+caching
+
+
+### poc folder structure
+```
+.
+├── Dockerfile
+├── controller
+│   ├── *-controller.go
+│   └── *-controller_test.go
+├── entity
+│   └── *-entity.go
+├── utils
+│    └── errors
+│        └── *-error.go
+├── go.mod
+├── go.sum
+├── infrastructure
+│   ├── middleware
+│   │   └── *-middleware.go
+│   ├── router
+│   │   ├── *-router.go
+│   │   └── router-interface.go
+│   └── pulumi 
+├── repository
+│   └── *-repository.go
+├── server.go
+├── service
+│   ├── *-service.go
+│   └── *-service_test.go
+└── tmp
+    ├── build-errors.log
+    └── main
+
+```
