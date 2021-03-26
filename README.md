@@ -47,3 +47,7 @@ createdb $DB_NAME
 
 ### github actions
 - create Publish-Docker-Github-Action
+
+### Other
+- docker-compose for later in the development
+- pulumi for iac
