@@ -7,9 +7,11 @@
 - Go extention for go is installed
 - Docker is installed
 
-### install air
+### setup air
 ```
 go get -u github.com/cosmtrek/air
+
+touch .air.toml
 ```
 
 set alias in ~.zshrc
