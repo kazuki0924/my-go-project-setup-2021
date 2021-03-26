@@ -86,4 +86,13 @@ caching
     ├── build-errors.log
     └── main
 
+.air.toml
+.vscode/workflows/publish-docker.yml
+/dto
+/utils/validatior
+.ebignore
+Buildfile
+Dockerfile
+/infrastructure/database/database.go
+
 ```
